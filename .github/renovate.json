@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":label(dependencies)",
+    "local>git@github.com:akhenda/nx-renovate",
+    "local>git@github.com:akhenda/nx-renovate:nxMonorepo",
+    "local>git@github.com:akhenda/nx-renovate:tooling",
+    ":assignee(akhenda)"
+  ]
+}
